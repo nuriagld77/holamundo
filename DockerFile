@@ -1,2 +1,2 @@
-From php:7.4-apache
-copy index.html /var/www/html/
+From tomcat:9.0.39-jdk11
+copy *.war /user/local/tomcat/webapps
